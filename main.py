@@ -50,7 +50,8 @@ def clearDatabase(session: Cluster):
     
 
 def main():
-    while True:
+    choice = ''
+    while choice != '4':
         print("what would you like to do?")
         print("1. Generate Stock Data")
         print("2. Visualize Stock Data")
